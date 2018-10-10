@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body { 
+  font: .875em/1.618 Helvetica, Sans-serif; 
+  background-color: #eee;
+  padding-top:0px;
+  margin-top:0px;
+}
+#navigation {
+  width: 100%;
+  background-color: #eee;
+  position: static;
+}
+
+div#logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 4px;
+  padding: 0;
+
+
+}
+
+div#navmenu {
+  float: right;
+
+
+}
+#navigation ul {
+  margin: 0;
+  padding: 0; 
+}
+#navigation li {
+  border-right: 1px solid #ddd;
+  display: block;
+  float: left;
+
+  margin: 0;
+}
+#navigation li:last-child {
+  border-right-width: 0;
+}
+#navigation a {
+  font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.1em;
+  text-decoration: none;
+  font-style: bold;
+  background-color: #eee;
+  color: #45495b;
+  display: block;
+  padding: 1em 2.0em;
+  
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+}
+#navigation a:hover {
+  background-color: #ddd;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after, 
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+#txt
+{
+  z-index: 100;
+  position: absolute;
+  color: white;
+font-size: 35px;
+font-weight:400;
+  left: 80%;
+  top: 100px;
+}
+#subtext a{
+  font-family: 'Dosis', sans-serif;
+text-decoration:none;
+color:white;
+}
+#down img{
+  z-index: 100;
+  position: absolute;
+  left: 85%;
+  top: 500px;
+  width:80px;
+}
+#signin a{
+text-decoration:none;
+color:white;
+}
+
+
+#signin a:hover{
+  font-family: 'Dosis', sans-serif;
+color:orange;
+}
+#text {
+  font-family: 'Dosis', sans-serif;
+  z-index: 100;
+  position: absolute;
+  color: white;
+text-shadow : -2px -2px 0 black,2px -2px 0 black,-2px 2px 0 black, 2px 2px 0 black;
+font-size: 40px;
+font-weight:400;
+  left: 42%;
+  top: 250px;
+}
+#subtext {
+  font-family: 'Dosis', sans-serif;
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+ padding:5px;
+ border: 4px;
+border-style : solid;
+border-color : #8A4B08;
+
+text-shadow : -2px -2px 0 black,2px -2px 0 black,-2px 2px 0 black, 2px 2px 0 black;
+ left: 43%;
+  top: 350px;
+}
+#subtext:hover{
+  font-family: 'Dosis', sans-serif;
+text-shadow : -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
+font-size: 35px;
+background-color: white;
+}
+#signin {
+  font-family: 'Dosis', sans-serif;
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  left: 43%;
+  top: 430px;
+}
+
+#courses h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+font-size: 2.5em;
+position: relative;
+text-align: center;
+
+}
+#container{
+
+margin-top:100px;
+margin-left: 170px;
+clear: both;
+}
+#container a{
+text-decoration:none;
+}
+div.img {
+    margin:10px;
+   background-color: white;
+   
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    
+}
+
+.desc{
+font-family: sans-serif;
+font-size: 0.75em;
+padding: 5px;
+border-bottom: 1px solid #eee;
+}
+
+#container1{
+  font-family: monospace;
+  background:black;
+  opacity:0.1;
+}
+
+#text1 {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.5em;
+  z-index: 100;
+  position: absolute;
+  text-align: black;
+  color: black;
+  left: 36%;
+  top: 850px;
+}
+#text2 h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#text2 {
+  font-family: sans-serif;
+
+    width: 13%;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: black;
+  left: 8%;
+  top: 1030px;
+}
+#text3 h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#text3 {
+
+  margin-left: 10%;
+
+  width: 12%;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: black;
+   left: 16%;
+  top:1030px;
+}
+#text4 h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#text4 {
+    margin-left: 10%;
+
+  width: 12%;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: black;
+  
+  left: 34%;
+  top: 1030px;
+}
+#text5 h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#text5 {
+    margin-left: 10%;
+
+  width: 12%;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: black;
+  
+  left: 53%;
+  top: 1030px;
+}
+#text6 h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#text6 {
+  margin-left: 10%;
+
+  width: 12%;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: black;
+  
+  left: 68%;
+  top: 1030px;
+}
+#footer{
+	margin-top:600px;
+	height:50%;
+	width:100%;
+	position:absolute;
+	background-color:#ddd
+	
+}
+#footer h1{
+	
+	  text-align: center;
+	  
+	 
+}
+#footer h2{
+	
+	text-align:center;
+}
+#footer h3{
+	text-align:center;
+	margin-top:150px;
+}
+#align {
+	
+	
+	margin-left:42%;
+	position:absolute;
+}
+#fb
+{
+	margin:5px;
+	
+}
+}
+
+
+
+
